@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List App</title>
+
+    <!-- Bootstrap Link -->
+    <link rel="stylesheet" href="css/bootstrap.css"> 
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="ToDO.css"> 
+</head>
+<body>
+    <h1> T<span>o</span> D<span>o</span>  </h1>
+
+    <div class="container col-md-6">
+        <div class="row">
+            <div class="card my-3">
+                <div class="card-body">
+                    <div class="form-group text-center">
+                        <label for="inputTask">Add Task</label>
+                        <input type="text" id="inputTask" class="form-control my-3" placeholder="Here .."> 
+                        <button class="btn btn-success form-control" id="btnCreate">Create Task</button>
+                        <h5 id="hNoTask" class="text-center my-2 fs-6 text-danger none" >Please Enter Your Task</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+       <h1> List <span>O</span>f Tasks </h1>
+    <div class="container col-md-6">
+        <div class="row">
+            <div class="card my-3">
+                <div class="card-body text-center">
+                    <div class="alert text-center" id="NoTasks">
+                        <h6>N<span>O</span> Have Tasks </h6>
+                    </div>
+                    <button class="btn btn-warning my-3" id="btnDeleteAll">Delete All</button>
+                    <h5 class="text-center">Number <span>O</span>f Tasks <span id="numberOfTasks"></span> </h5>
+                    <div class="tasks" id="AllTasks">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer col-md-6 col-lg-12">
+        <h6>Created By Eng : <span>Abdelrahman Abdelsamie</span> </h6> 
+        <span><a href="https://www.facebook.com/profile.php?id=100005529162067"><i class="fa-brands fa-facebook"></i></a></span>
+        <span><a href="https://www.instagram.com/abdelrahman_marey98/#"><i class="fa-brands fa-instagram"></i></a></span>
+        <span><a href="https://web.whatsapp.com/01129508321/#"><i class="fa-brands fa-whatsapp"></i></a></span>
+    </div>
+   <script src="https://kit.fontawesome.com/9992a75c8c.js" crossorigin="anonymous"></script>
+    <script src="ToDo.js"></script>
+</body>
+</html>
